@@ -1,0 +1,45 @@
+.latest {
+    margin-top: 90px;
+}
+
+.latest-list {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 285px 285px 285px 285px;
+    column-gap: 20px;
+    row-gap: 50px;
+    margin-bottom: 90px;
+}
+
+.latest-item-img {
+    margin-bottom: 25px;
+}
+
+.latest-item-info {
+    padding-left: 1px;
+}
+
+.latest-item-title {
+    margin-top: 18px;
+    padding-left: 1px;
+    margin-bottom: 15px;
+    padding-right: 0px;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.latest-link {
+    color: var(--black);
+    text-transform: uppercase;
+    border: 1px solid var(--black);
+    padding: 20px 29px;
+    font-family: 'Libre Franklin';
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 1px;
+    display: block;
+    width: 205px;
+    margin: 0 auto;
+    margin-bottom: 90px;
+}
