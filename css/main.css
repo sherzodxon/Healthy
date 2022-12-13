@@ -476,6 +476,14 @@ ol {
   line-height: 24px;
 }
 
+.header-text {
+  text-transform: uppercase;
+  font-family: "Libre Franklin";
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 0;
+}
+
 .intro {
   margin-top: 59px;
 }
@@ -613,4 +621,26 @@ ol {
   width: 205px;
   margin: 0 auto;
   margin-bottom: 90px;
+}
+
+.features {
+  margin-top: 90px;
+}
+
+.features-list {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 590px 590px;
+  gap: 50px 20px;
+}
+
+.features-item-img {
+  margin-bottom: 25px;
+}
+
+.features-item-title {
+  margin-top: 18px;
+  font-size: 19px;
+  line-height: 24px;
+  margin-bottom: 15px;
 }/*# sourceMappingURL=main.css.map */
