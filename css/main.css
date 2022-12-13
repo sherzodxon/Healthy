@@ -355,7 +355,7 @@ template {
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   font-family: "Tenor Sans", sans-serif;
   width: 1440px;
@@ -370,10 +370,15 @@ img {
 
 a {
   text-decoration: none;
+  font-family: "Libre Franklin";
 }
 
 h1, h2, h3, h4, h5, p {
   margin: 0;
+}
+
+ul, ol {
+  list-style: none;
 }
 
 .visually-hidden {
@@ -402,4 +407,28 @@ h1, h2, h3, h4, h5, p {
   width: 1220px;
   margin: 0 auto;
   padding: 0 10px;
+}
+
+.header {
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-nav-list {
+  width: 255px;
+  padding: 33px 20px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-nav-link {
+  color: var(--black);
+  font-size: 14px;
+  line-height: 24px;
 }/*# sourceMappingURL=main.css.map */
