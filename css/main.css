@@ -373,11 +373,17 @@ a {
   font-family: "Libre Franklin";
 }
 
-h1, h2, h3, h4, h5, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
   margin: 0;
 }
 
-ul, ol {
+ul,
+ol {
   list-style: none;
 }
 
@@ -393,14 +399,41 @@ ul, ol {
 }
 
 :root {
-  --white:#FFFFFF;
-  --gray:#666666;
+  --white: #FFFFFF;
+  --gray: #666666;
   --black: #000000;
+  --info: #999999;
 }
 
 .dark-body {
-  --white:#000000;
-  --black:#FFFFFF;
+  --white: #000000;
+  --black: #FFFFFF;
+}
+
+.info {
+  font-family: "Libre Franklin";
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-align: left;
+  color: var(--info);
+  text-transform: uppercase;
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+
+.by {
+  font-family: "Libre Franklin";
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: 1px;
+  color: var(--black);
 }
 
 .container {
@@ -431,4 +464,38 @@ ul, ol {
   color: var(--black);
   font-size: 14px;
   line-height: 24px;
+}
+
+.intro {
+  margin-top: 59px;
+}
+
+.intro-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.intro-img {
+  margin-right: 51px;
+}
+
+.intro-info {
+  margin-top: 6px;
+}
+
+.intro-title {
+  font-size: 36px;
+  line-height: 42px;
+  margin-top: 18px;
+}
+
+.intro-text {
+  font-family: "Source Serif Pro";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: var(--gray);
+  margin-top: 27px;
+  margin-bottom: 28px;
 }/*# sourceMappingURL=main.css.map */
