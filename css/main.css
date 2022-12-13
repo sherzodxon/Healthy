@@ -446,6 +446,10 @@ ol {
   margin: 0;
 }
 
+.logo-none {
+  display: none;
+}
+
 .container {
   width: 1220px;
   margin: 0 auto;
