@@ -308,6 +308,46 @@ template {
   display: none;
 }
 
+/* tenor-sans-regular - latin */
+@font-face {
+  font-family: "Tenor Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../../fonts/tenor-sans-v17-latin-regular.woff2") format("woff2"), url("../../fonts/tenor-sans-v17-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* libre-franklin-regular - latin */
+@font-face {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../../fonts/libre-franklin-v13-latin-regular.woff2") format("woff2"), url("../../fonts/libre-franklin-v13-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* libre-franklin-700 - latin */
+@font-face {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../../fonts/libre-franklin-v13-latin-700.woff2") format("woff2"), url("../../fonts/libre-franklin-v13-latin-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* source-serif-pro-300 - latin */
+@font-face {
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-weight: 300;
+  src: local(""), url("../../fonts/source-serif-pro-v15-latin-300.woff2") format("woff2"), url("../../fonts/source-serif-pro-v15-latin-300.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* source-serif-pro-regular - latin */
+@font-face {
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../../fonts/source-serif-pro-v15-latin-regular.woff2") format("woff2"), url("../../fonts/source-serif-pro-v15-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
 *,
 *::before,
 *::after {
@@ -317,7 +357,10 @@ template {
 body {
   margin: 0;
   padding: 0;
-  font-family: "Arial", sans-serif;
+  font-family: "Tenor Sans", sans-serif;
+  width: 1440px;
+  background: var(--white);
+  color: var(--black);
 }
 
 img {
@@ -329,7 +372,7 @@ a {
   text-decoration: none;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5, p {
   margin: 0;
 }
 
@@ -344,9 +387,19 @@ h1, h2, h3, h4 {
   width: 1px;
 }
 
+:root {
+  --white:#FFFFFF;
+  --gray:#666666;
+  --black: #000000;
+}
+
+.dark-body {
+  --white:#000000;
+  --black:#FFFFFF;
+}
+
 .container {
-  width: 100%;
-  max-width: 1200px;
+  width: 1220px;
   margin: 0 auto;
   padding: 0 10px;
 }/*# sourceMappingURL=main.css.map */
