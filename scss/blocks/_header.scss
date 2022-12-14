@@ -9,15 +9,26 @@
 .header-nav-list{
     width: 255px;
    padding: 33px 20px;
+   padding-right: 18px;
    margin: 0;
    display: flex;
-   justify-content: space-between;
-   
 }
 .header-nav-link{
     color: var(--black);
     font-size: 14px;
-    line-height: 24px
+    line-height: 24px;
+    &:first-child{
+        margin-right: 43px;
+    }
+   
+    
+}
+.header-nav-item{
+    &:last-child{
+        display: block;
+        width: 80px;
+        padding-left: 2px;
+    }
 }
 .header-text{
     text-transform: uppercase;

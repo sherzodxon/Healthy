@@ -7,12 +7,12 @@
     display: grid;
     grid-template-columns: 285px 285px 285px 285px;
     column-gap: 20px;
-    row-gap: 50px;
-    margin-bottom: 90px;
+    row-gap: 48px;
+    margin-bottom: 86px;
 }
 
 .latest-item-img {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .latest-item-info {
@@ -21,11 +21,12 @@
 
 .latest-item-title {
     margin-top: 18px;
-    padding-left: 1px;
-    margin-bottom: 15px;
-    padding-right: 0px;
+    margin-bottom: 7px;
     font-size: 20px;
     line-height: 24px;
+}
+.latest-item-by{
+    margin-left: 20px;
 }
 
 .latest-link {
@@ -33,6 +34,7 @@
     text-transform: uppercase;
     border: 1px solid var(--black);
     padding: 20px 29px;
+    padding-left: 26px;
     font-family: 'Libre Franklin';
     font-size: 10px;
     font-weight: 400;
@@ -42,4 +44,31 @@
     width: 205px;
     margin: 0 auto;
     margin-bottom: 90px;
+}
+.latest1{
+    font-size: 19px;
+    width: 276px;
+}
+.latest2{
+    width: 281px;
+}
+.latest3{
+    font-size: 19px;
+    width: 281px;
+}
+.latest4{
+    width: 285px;
+}
+.latest5{
+    font-size: 19px;
+    width: 244px;
+}
+.latest6{
+    width: 282px;
+}
+.latest7{
+    width: 230px;
+}
+.latest8{
+    width: 280px
 }
